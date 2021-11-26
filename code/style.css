@@ -1,0 +1,104 @@
+@import url("https://fonts.googleapis.com/css2?family=Lato:wght@300&family=Raleway:wght@500&display=swap");
+
+.background {
+  background: linear-gradient(75deg, rgb(245,245,245) 90%, rgba(0,0,0,0) 90%), linear-gradient(45deg, rgb(192, 192, 192) 90%, rgb(255, 153, 0) 90%);
+}
+
+.topnav {
+  background-color: rgb(192, 192, 192);
+  overflow: hidden;
+}
+
+.topnav a {
+  float: left;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 0.5rem 1rem;
+  text-decoration: none;
+  font-size: 1rem;
+  font-family: 'Lato', sans-serif;
+}
+
+.topnav a:hover {
+  background-color: #ddd;
+  color: black;
+}
+
+.topnav a.active {
+  background-color: rgb(255, 153, 0);
+  color: white;
+}
+
+h1 {
+  font-family: 'Raleway', sans-serif;
+  font-size: 3rem;
+  color: rgba(0,0,0);
+  text-align: center;
+}
+
+h2 {
+  font-family: 'Lato', sans-serif;
+  font-size: 2rem;
+  color: rgba(0,0,0);
+  text-align: center;
+}
+
+h3 {
+  font-family: 'Lato', sans-serif;
+  font-size: 1.25rem;
+  text-align: center;
+  color: rgb(0,0,0);
+}
+
+p {
+  font-family: 'Lato', sans-serif;
+  font-size: 1.25rem;
+  text-align: justify;
+  color: rgb(0,0,0);
+}
+
+a {
+  text-decoration: none;
+  font-family: 'Lato', sans-serif;
+  font-size: 1.25rem;
+  color: rgb(255, 153, 0)
+}
+
+a.reference:hover {
+  font-weight: 800;
+  text-decoration: underline;
+}
+a:visited {
+  color: rgb(128, 128, 128);
+  text-decoration: none;
+}
+
+ul {
+  list-style-type: square;
+  font-family: 'Lato', sans-serif;
+  font-size: 1.25rem;
+  text-align: justify;
+  color: rgb(0,0,0);
+}
+ol {
+  font-family: 'Lato', sans-serif;
+  font-size: 1.25rem;
+  text-align: justify;
+  color: rgb(0,0,0);
+}
+li {
+  font-family: 'Lato', sans-serif;
+  font-size: 1.25rem;
+  text-align: justify;
+  color: rgb(0,0,0);
+}
+.center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+}
+.content {
+  padding-right: 5rem;
+  padding-left: 1rem;
+}
