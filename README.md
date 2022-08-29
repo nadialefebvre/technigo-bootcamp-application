@@ -1,10 +1,3 @@
-# Coding challenge for Technigo's bootcamp application
-Task: build a webpage with title, paragraph and three urls for more info
-
-Tech: HTML and CSS
-
-----
-
 # What is Stack Overflow?
 Description of what Stack Overflow is.
 
